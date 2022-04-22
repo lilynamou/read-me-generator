@@ -10,6 +10,54 @@ const util = require("util");
 
 const questions = [{
     type: "input",
-    message: ""
-    name:
-}]
+    message: "What is the name of your project?",
+    name: "Title"
+}, {
+    type: "input",
+    message: "What is the project about?",
+    name: "Decription"
+}, {
+    type: "input",
+    message: "What needs to be installed to run this app?",
+    name: "Installation"
+}, {
+}, {
+    type: "input",
+    message: "Table of Contents",
+    name: "Table of Contents"
+
+}, {
+    type: "input",
+    message: "Describe how the app is used.",
+    name: "Usage Information"
+}, {
+    type: "input",
+    message: "What are the contribution guielines?",
+    name: "Contributing"
+}, {
+    type: "input",
+    message: "What commands are needed to test this app?",
+    name: "Tests"
+}, {
+    type: "list",
+    name: "License",
+    message: "Choose a license for the application.",
+    choices : [
+        "APACHE 2.0",
+        "MIT",
+        "BSD 3",
+        "GVL-FPL 3.0",
+        "None"
+    ]
+    
+}, {
+    type: "input",
+    message: "What is your GitHub username?",
+    name: "GitHub User"
+    
+}, {
+    type: "input",
+    message: "What is your email address?",
+    name: "Email Address"
+},
+]
