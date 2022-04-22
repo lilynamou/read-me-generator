@@ -4,10 +4,9 @@ const fs = require('fs');
 const util = require("util");
 
 // TODO: import the generateMarkdown function from utils/generateMarkdown.js
-
 // TODO: Write code to get user input, generate markdown, and save it to a file.
-//QUESTON ARRAY
 
+//Questions Array for Read Me
 const questions = [{
     type: "input",
     message: "What is the name of your project?",
@@ -61,3 +60,10 @@ const questions = [{
     name: "Email Address"
 },
 ]
+//Function to write readme.md file
+function init() {
+    inquirer.prompt(questions) .then (function(data) {
+        writeToFile("README.md", generatorMarkdown(data));
+        console.log(data)
+    })
+}
