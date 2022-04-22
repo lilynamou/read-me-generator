@@ -22,12 +22,13 @@ function generateMarkdown(data) {
   
   ##Contributors: 
   Contributors: ${data.Contributing}
+  
   ##Tests
   ${data.Tests} will be needed to run the test.
  
   ##License
   This project is licensed under the ${data.License} license.
-  ![GitHub license] (https://img.shields.io/badge/license-MIY-blue.svg())
+  ![GitHub license] (https://img.shields.io/badge/license-MIT-blue.svg)
   
   ##Contact
   Email Address: ${data.Email}

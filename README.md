@@ -16,16 +16,17 @@
   The following programs must be installed to run the application Fs, Util, Inquirer
   
   ##Usage
-  To be able to use this app, The app is used by answering a series of questions through the terminal
+  To be able to use this app, By answering a series of questions through the terminal.
   
   ##Contributors: 
   Contributors: N/A
+  
   ##Tests
   node index.js will be needed to run the test.
  
   ##License
   This project is licensed under the MIT license.
-  ![GitHub license] (https://img.shields.io/badge/license-MIY-blue.svg())
+  ![GitHub license] (https://img.shields.io/badge/license-MIT-blue.svg)
   
   ##Contact
   Email Address: lilyanaisabellan@gmail.com
